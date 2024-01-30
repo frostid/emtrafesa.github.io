@@ -1,0 +1,103 @@
+/* Agregar estilos para el modo oscuro aquí */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+body.dark-mode a {
+    color: #fff;
+}
+
+body.dark-mode header {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+body.dark-mode section {
+    background-color: #211F21;
+    color: #fff;
+}
+
+body.dark-mode section h3,
+body.dark-mode section h4,
+body.dark-mode section h5,
+body.dark-mode section p,
+body.dark-mode section a {
+    color: #172554;
+}
+
+body.dark-mode section h2{
+    color: #fff; 
+}
+
+body.dark-mode footer {
+    background-color: #1f2937;
+    color: #9ae6b4;
+}
+ /* Estilos adicionales para mejorar la apariencia y responsividad */
+ #slider {
+    max-width: 100%;
+  }
+
+  #slider img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+.slider-container {
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  
+  .slide img {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 5px #97a0af;
+  }
+  
+  .slide-text {
+    padding: 20px;
+    background-color:  #4d6ca3;
+    color: white;
+    border-radius: 8px
+  }
+  .slide .detalles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .detalles .nombre{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+  
+  }
+  .detalles .trabajo{
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+  
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }  
+  button:hover {
+    background-color: #97a0af;
+  }
+  
